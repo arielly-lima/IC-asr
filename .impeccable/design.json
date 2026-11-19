@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-18T04:06:30Z",
+  "title": "Design System: Coleta de voz",
+  "extensions": {
+    "colorMeta": {
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Fundo claro",
+        "tonalRamp": [
+          "oklch(15% 0.00568 128.53)",
+          "oklch(25% 0.00568 128.53)",
+          "oklch(35% 0.00568 128.53)",
+          "oklch(45% 0.00568 128.53)",
+          "oklch(55% 0.00568 128.53)",
+          "oklch(65% 0.00568 128.53)",
+          "oklch(80% 0.00568 128.53)",
+          "oklch(95% 0.00568 128.53)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Superfície branca",
+        "tonalRamp": [
+          "oklch(15% 0.00000 0.00)",
+          "oklch(25% 0.00000 0.00)",
+          "oklch(35% 0.00000 0.00)",
+          "oklch(45% 0.00000 0.00)",
+          "oklch(55% 0.00000 0.00)",
+          "oklch(65% 0.00000 0.00)",
+          "oklch(80% 0.00000 0.00)",
+          "oklch(95% 0.00000 0.00)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Texto escuro",
+        "tonalRamp": [
+          "oklch(15% 0.02650 176.02)",
+          "oklch(25% 0.02650 176.02)",
+          "oklch(35% 0.02650 176.02)",
+          "oklch(45% 0.02650 176.02)",
+          "oklch(55% 0.02650 176.02)",
+          "oklch(65% 0.02650 176.02)",
+          "oklch(80% 0.02650 176.02)",
+          "oklch(95% 0.02650 176.02)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Texto de apoio",
+        "tonalRamp": [
+          "oklch(15% 0.02462 169.70)",
+          "oklch(25% 0.02462 169.70)",
+          "oklch(35% 0.02462 169.70)",
+          "oklch(45% 0.02462 169.70)",
+          "oklch(55% 0.02462 169.70)",
+          "oklch(65% 0.02462 169.70)",
+          "oklch(80% 0.02462 169.70)",
+          "oklch(95% 0.02462 169.70)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Divisória suave",
+        "tonalRamp": [
+          "oklch(15% 0.01441 155.55)",
+          "oklch(25% 0.01441 155.55)",
+          "oklch(35% 0.01441 155.55)",
+          "oklch(45% 0.01441 155.55)",
+          "oklch(55% 0.01441 155.55)",
+          "oklch(65% 0.01441 155.55)",
+          "oklch(80% 0.01441 155.55)",
+          "oklch(95% 0.01441 155.55)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Verde de ação",
+        "tonalRamp": [
+          "oklch(15% 0.07119 176.49)",
+          "oklch(25% 0.07119 176.49)",
+          "oklch(35% 0.07119 176.49)",
+          "oklch(45% 0.07119 176.49)",
+          "oklch(55% 0.07119 176.49)",
+          "oklch(65% 0.07119 176.49)",
+          "oklch(80% 0.07119 176.49)",
+          "oklch(95% 0.07119 176.49)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Verde de interação",
+        "tonalRamp": [
+          "oklch(15% 0.05925 176.77)",
+          "oklch(25% 0.05925 176.77)",
+          "oklch(35% 0.05925 176.77)",
+          "oklch(45% 0.05925 176.77)",
+          "oklch(55% 0.05925 176.77)",
+          "oklch(65% 0.05925 176.77)",
+          "oklch(80% 0.05925 176.77)",
+          "oklch(95% 0.05925 176.77)"
+        ]
+      },
+      "sage": {
+        "role": "neutral",
+        "displayName": "Sálvia suave",
+        "tonalRamp": [
+          "oklch(15% 0.01408 138.71)",
+          "oklch(25% 0.01408 138.71)",
+          "oklch(35% 0.01408 138.71)",
+          "oklch(45% 0.01408 138.71)",
+          "oklch(55% 0.01408 138.71)",
+          "oklch(65% 0.01408 138.71)",
+          "oklch(80% 0.01408 138.71)",
+          "oklch(95% 0.01408 138.71)"
+        ]
+      },
+      "focus": {
+        "role": "semantic",
+        "displayName": "Azul de foco",
+        "tonalRamp": [
+          "oklch(15% 0.16726 258.11)",
+          "oklch(25% 0.16726 258.11)",
+          "oklch(35% 0.16726 258.11)",
+          "oklch(45% 0.16726 258.11)",
+          "oklch(55% 0.16726 258.11)",
+          "oklch(65% 0.16726 258.11)",
+          "oklch(80% 0.16726 258.11)",
+          "oklch(95% 0.16726 258.11)"
+        ]
+      },
+      "error": {
+        "role": "semantic",
+        "displayName": "Vermelho de erro",
+        "tonalRamp": [
+          "oklch(15% 0.14332 26.96)",
+          "oklch(25% 0.14332 26.96)",
+          "oklch(35% 0.14332 26.96)",
+          "oklch(45% 0.14332 26.96)",
+          "oklch(55% 0.14332 26.96)",
+          "oklch(65% 0.14332 26.96)",
+          "oklch(80% 0.14332 26.96)",
+          "oklch(95% 0.14332 26.96)"
+        ]
+      },
+      "error-bg": {
+        "role": "semantic",
+        "displayName": "Fundo de erro",
+        "tonalRamp": [
+          "oklch(15% 0.01650 26.65)",
+          "oklch(25% 0.01650 26.65)",
+          "oklch(35% 0.01650 26.65)",
+          "oklch(45% 0.01650 26.65)",
+          "oklch(55% 0.01650 26.65)",
+          "oklch(65% 0.01650 26.65)",
+          "oklch(80% 0.01650 26.65)",
+          "oklch(95% 0.01650 26.65)"
+        ]
+      },
+      "warning": {
+        "role": "semantic",
+        "displayName": "Âmbar de pendência",
+        "tonalRamp": [
+          "oklch(15% 0.08439 66.88)",
+          "oklch(25% 0.08439 66.88)",
+          "oklch(35% 0.08439 66.88)",
+          "oklch(45% 0.08439 66.88)",
+          "oklch(55% 0.08439 66.88)",
+          "oklch(65% 0.08439 66.88)",
+          "oklch(80% 0.08439 66.88)",
+          "oklch(95% 0.08439 66.88)"
+        ]
+      },
+      "warning-bg": {
+        "role": "semantic",
+        "displayName": "Fundo de pendência",
+        "tonalRamp": [
+          "oklch(15% 0.02483 81.13)",
+          "oklch(25% 0.02483 81.13)",
+          "oklch(35% 0.02483 81.13)",
+          "oklch(45% 0.02483 81.13)",
+          "oklch(55% 0.02483 81.13)",
+          "oklch(65% 0.02483 81.13)",
+          "oklch(80% 0.02483 81.13)",
+          "oklch(95% 0.02483 81.13)"
+        ]
+      },
+      "game-accent": {
+        "role": "primary",
+        "displayName": "Verde de missão",
+        "tonalRamp": [
+          "oklch(15% 0.14460 140.95)",
+          "oklch(25% 0.14460 140.95)",
+          "oklch(35% 0.14460 140.95)",
+          "oklch(45% 0.14460 140.95)",
+          "oklch(55% 0.14460 140.95)",
+          "oklch(65% 0.14460 140.95)",
+          "oklch(80% 0.14460 140.95)",
+          "oklch(95% 0.14460 140.95)"
+        ]
+      },
+      "game-accent-hover": {
+        "role": "primary",
+        "displayName": "Verde de missão em interação",
+        "tonalRamp": [
+          "oklch(15% 0.11929 141.13)",
+          "oklch(25% 0.11929 141.13)",
+          "oklch(35% 0.11929 141.13)",
+          "oklch(45% 0.11929 141.13)",
+          "oklch(55% 0.11929 141.13)",
+          "oklch(65% 0.11929 141.13)",
+          "oklch(80% 0.11929 141.13)",
+          "oklch(95% 0.11929 141.13)"
+        ]
+      },
+      "mission-soft": {
+        "role": "neutral",
+        "displayName": "Fundo de missão",
+        "tonalRamp": [
+          "oklch(15% 0.03488 126.50)",
+          "oklch(25% 0.03488 126.50)",
+          "oklch(35% 0.03488 126.50)",
+          "oklch(45% 0.03488 126.50)",
+          "oklch(55% 0.03488 126.50)",
+          "oklch(65% 0.03488 126.50)",
+          "oklch(80% 0.03488 126.50)",
+          "oklch(95% 0.03488 126.50)"
+        ]
+      },
+      "mission-edge": {
+        "role": "neutral",
+        "displayName": "Borda de missão",
+        "tonalRamp": [
+          "oklch(15% 0.10281 131.55)",
+          "oklch(25% 0.10281 131.55)",
+          "oklch(35% 0.10281 131.55)",
+          "oklch(45% 0.10281 131.55)",
+          "oklch(55% 0.10281 131.55)",
+          "oklch(65% 0.10281 131.55)",
+          "oklch(80% 0.10281 131.55)",
+          "oklch(95% 0.10281 131.55)"
+        ]
+      },
+      "mission-track": {
+        "role": "neutral",
+        "displayName": "Trilha de missão",
+        "tonalRamp": [
+          "oklch(15% 0.03902 129.66)",
+          "oklch(25% 0.03902 129.66)",
+          "oklch(35% 0.03902 129.66)",
+          "oklch(45% 0.03902 129.66)",
+          "oklch(55% 0.03902 129.66)",
+          "oklch(65% 0.03902 129.66)",
+          "oklch(80% 0.03902 129.66)",
+          "oklch(95% 0.03902 129.66)"
+        ]
+      },
+      "reward-ink": {
+        "role": "secondary",
+        "displayName": "Texto de conquista",
+        "tonalRamp": [
+          "oklch(15% 0.08858 73.62)",
+          "oklch(25% 0.08858 73.62)",
+          "oklch(35% 0.08858 73.62)",
+          "oklch(45% 0.08858 73.62)",
+          "oklch(55% 0.08858 73.62)",
+          "oklch(65% 0.08858 73.62)",
+          "oklch(80% 0.08858 73.62)",
+          "oklch(95% 0.08858 73.62)"
+        ]
+      },
+      "reward-bg": {
+        "role": "secondary",
+        "displayName": "Fundo de conquista",
+        "tonalRamp": [
+          "oklch(15% 0.04943 93.38)",
+          "oklch(25% 0.04943 93.38)",
+          "oklch(35% 0.04943 93.38)",
+          "oklch(45% 0.04943 93.38)",
+          "oklch(55% 0.04943 93.38)",
+          "oklch(65% 0.04943 93.38)",
+          "oklch(80% 0.04943 93.38)",
+          "oklch(95% 0.04943 93.38)"
+        ]
+      },
+      "reward-edge": {
+        "role": "secondary",
+        "displayName": "Borda de conquista",
+        "tonalRamp": [
+          "oklch(15% 0.12702 90.48)",
+          "oklch(25% 0.12702 90.48)",
+          "oklch(35% 0.12702 90.48)",
+          "oklch(45% 0.12702 90.48)",
+          "oklch(55% 0.12702 90.48)",
+          "oklch(65% 0.12702 90.48)",
+          "oklch(80% 0.12702 90.48)",
+          "oklch(95% 0.12702 90.48)"
+        ]
+      },
+      "reward-star": {
+        "role": "secondary",
+        "displayName": "Estrela de conquista",
+        "tonalRamp": [
+          "oklch(15% 0.14898 88.44)",
+          "oklch(25% 0.14898 88.44)",
+          "oklch(35% 0.14898 88.44)",
+          "oklch(45% 0.14898 88.44)",
+          "oklch(55% 0.14898 88.44)",
+          "oklch(65% 0.14898 88.44)",
+          "oklch(80% 0.14898 88.44)",
+          "oklch(95% 0.14898 88.44)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "welcome": {
+        "displayName": "Título de entrada",
+        "purpose": "Mensagem inicial; adapta-se nos dois breakpoints."
+      },
+      "headline": {
+        "displayName": "Título funcional",
+        "purpose": "Títulos da coleta e do resumo."
+      },
+      "title": {
+        "displayName": "Título de painel",
+        "purpose": "Cabeçalho das instruções."
+      },
+      "phrase": {
+        "displayName": "Frase de gravação",
+        "purpose": "Texto central da tarefa atual."
+      },
+      "body": {
+        "displayName": "Texto de interface",
+        "purpose": "Família compartilhada e leitura de orientações."
+      },
+      "label": {
+        "displayName": "Rótulo",
+        "purpose": "Peso dos rótulos e dos controles."
+      },
+      "mission": {
+        "displayName": "Título de missão",
+        "purpose": "Título destacado da missão atual, com redução no celular."
+      },
+      "celebration": {
+        "displayName": "Título de conquista",
+        "purpose": "Confirmação estática de uma missão concluída."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "button-state",
+        "value": "background-color 150ms ease-out, border-color 150ms ease-out",
+        "purpose": "Transição de cores nos botões; desativada com prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "850px"
+      },
+      {
+        "name": "mobile",
+        "value": "650px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão primário",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ação principal; foco, hover, pressão e indisponibilidade preservam o comportamento implementado.",
+      "html": "<button class=\"ds-primary\" type=\"button\">Enviar gravação</button>",
+      "css": ".ds-primary { min-height: 52px; padding: .72rem 1.2rem; border: 1px solid transparent; border-radius: 9px; display: inline-flex; justify-content: center; align-items: center; gap: .65rem; font: 600 18px/1.3 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; cursor: pointer; transition: background-color 150ms ease-out, border-color 150ms ease-out; } .ds-primary:disabled { cursor: wait; opacity: .65; } .ds-primary:focus-visible { outline: 3px solid var(--focus, #145cbd); outline-offset: 4px; } @media (max-width: 650px) { .ds-primary { font-size: 17px; } } @media (prefers-reduced-motion: reduce) { .ds-primary { transition: none !important; } } .ds-primary { background: var(--accent, #1e6254); color: var(--paper, #ffffff); } .ds-primary:hover:not(:disabled) { background: var(--accent-hover, #164c41); } .ds-primary:active:not(:disabled) { background: #103d33; }"
+    },
+    {
+      "name": "Botão secundário",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Ação auxiliar com contorno e realce sálvia.",
+      "html": "<button class=\"ds-secondary\" type=\"button\">Gravar novamente</button>",
+      "css": ".ds-secondary { min-height: 52px; padding: .72rem 1.2rem; border: 1px solid transparent; border-radius: 9px; display: inline-flex; justify-content: center; align-items: center; gap: .65rem; font: 600 18px/1.3 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; cursor: pointer; transition: background-color 150ms ease-out, border-color 150ms ease-out; } .ds-secondary:disabled { cursor: wait; opacity: .65; } .ds-secondary:focus-visible { outline: 3px solid var(--focus, #145cbd); outline-offset: 4px; } @media (max-width: 650px) { .ds-secondary { font-size: 17px; } } @media (prefers-reduced-motion: reduce) { .ds-secondary { transition: none !important; } } .ds-secondary { background: transparent; color: var(--ink, #1d302b); border-color: #93a59a; } .ds-secondary:hover:not(:disabled) { background: var(--sage, #e7eee5); border-color: var(--muted, #50625b); }"
+    },
+    {
+      "name": "Ação textual",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "Troca de código ou tentativa de sincronização, com texto sublinhado.",
+      "html": "<button class=\"ds-text-button\" type=\"button\">Usar outro código</button>",
+      "css": ".ds-text-button { border: 0; background: transparent; color: var(--accent, #1e6254); text-decoration: underline; text-underline-offset: .2em; padding: .4rem .2rem; min-height: 44px; font: 400 18px/1.6 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; cursor: pointer; transition: background-color 150ms ease-out, border-color 150ms ease-out; } .ds-text-button:hover { color: var(--accent-hover, #164c41); } .ds-text-button:disabled { cursor: wait; opacity: .65; } .ds-text-button:focus-visible { outline: 3px solid var(--focus, #145cbd); outline-offset: 4px; } @media (max-width: 650px) { .ds-text-button { font-size: 17px; } } @media (prefers-reduced-motion: reduce) { .ds-text-button { transition: none !important; } }"
+    },
+    {
+      "name": "Código de acesso",
+      "kind": "input",
+      "refersTo": "input-code",
+      "description": "Campo com rótulo explícito, indicação textual e borda de erro por aria-invalid.",
+      "html": "<label class=\"ds-code-label\" for=\"ds-access-code\">Código de acesso</label><p class=\"ds-code-hint\" id=\"ds-code-hint\">Use o código fornecido para o teste.</p><input class=\"ds-code\" id=\"ds-access-code\" type=\"text\" autocomplete=\"off\" autocapitalize=\"characters\" spellcheck=\"false\" maxlength=\"64\" required aria-describedby=\"ds-code-hint\">",
+      "css": ".ds-code-label { display: block; color: var(--ink, #1d302b); font: 600 18px/1.6 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; } .ds-code-hint { font: 400 .83rem/1.6 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; color: var(--muted, #50625b); margin: .35rem 0 .75rem; } .ds-code { width: 100%; height: 54px; padding: .6rem .8rem; background: var(--paper, #ffffff); border: 1px solid #84988c; border-radius: 8px; color: var(--ink, #1d302b); caret-color: var(--accent, #1e6254); text-transform: uppercase; font: 400 18px/1.6 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; } .ds-code[aria-invalid=\"true\"] { border-color: var(--error, #992e29); } .ds-code:focus-visible { outline: 3px solid var(--focus, #145cbd); outline-offset: 4px; } @media (max-width: 650px) { .ds-code-label, .ds-code { font-size: 17px; } }"
+    },
+    {
+      "name": "Painel de instruções",
+      "kind": "card",
+      "refersTo": "instructions",
+      "description": "Superfície plana sálvia para orientar a tarefa.",
+      "html": "<aside class=\"ds-instructions\"><h2 class=\"ds-instructions-title\">Como funciona</h2><p class=\"ds-instructions-copy\">Uma frase aparece de cada vez.</p></aside>",
+      "css": ".ds-instructions { background: var(--sage, #e7eee5); border-radius: var(--radius, 14px); padding: 2rem; color: var(--ink, #1d302b); font-family: \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; } .ds-instructions-title { margin: 0; font-size: 1.2rem; line-height: 1.3; font-weight: 650; } .ds-instructions-copy { color: var(--muted, #50625b); font-size: .9rem; line-height: 1.6; margin: .1rem 0 0; } @media (max-width: 850px) { .ds-instructions { padding: 1.5rem; } }"
+    },
+    {
+      "name": "Superfície do gravador",
+      "kind": "custom",
+      "refersTo": "recording-surface",
+      "description": "Gravador pronto com ilustração real de teste-02 (manifesto illustrations-v1) e texto separado. Cena redundante usa alt vazio; descrições originais e proveniência ficam no manifesto. Apoio idêntico nas condições e na familiarização; falha remove a imagem e a grade.",
+      "html": "<div class=\"ds-recording-surface\"><div class=\"ds-phrase-prompt ds-has-illustration\"><img class=\"ds-phrase-image\" src=\"data:image/webp;base64,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\" alt=\"\" width=\"640\" height=\"640\" decoding=\"async\"><p class=\"ds-phrase\">Hoje o céu está azul.</p></div><div class=\"ds-recorder\"><div class=\"ds-recorder-status\"><span class=\"ds-state-dot\" aria-hidden=\"true\"></span><span>Pronto para gravar</span><span class=\"ds-timer\" aria-hidden=\"true\">00:00</span></div><button class=\"ds-record-button\" type=\"button\"><svg class=\"ds-icon\" aria-hidden=\"true\" viewBox=\"0 0 24 24\"><rect x=\"9\" y=\"2\" width=\"6\" height=\"12\" rx=\"3\"/><path d=\"M5 10v2a7 7 0 0 0 14 0v-2M12 19v3M8 22h8\"/></svg><span>Começar gravação</span></button></div></div>",
+      "css": ".ds-recording-surface { background: var(--paper, #ffffff); border: 1px solid var(--line, #ccd6cf); border-radius: var(--radius, 14px); overflow: hidden; color: var(--ink, #1d302b); font-family: \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; } .ds-phrase { margin: 0; padding: 2.2rem 2.4rem; font-size: 1.8rem; line-height: 1.5; font-weight: 550; text-align: center; text-wrap: balance; overflow-wrap: anywhere; } .ds-recorder { border-top: 1px solid var(--line, #ccd6cf); padding: 1.4rem 2.4rem 1.8rem; } .ds-recorder-status { display: flex; align-items: center; gap: .55rem; color: var(--muted, #50625b); font-size: .88rem; margin-bottom: 1.15rem; } .ds-state-dot { width: 8px; height: 8px; border-radius: 50%; background: #61766c; flex-shrink: 0; } .ds-state-dot.ds-recording { background: #b53229; } .ds-state-dot.ds-confirmed { background: var(--accent, #1e6254); } .ds-timer { margin-left: auto; font-variant-numeric: tabular-nums; } .ds-icon { width: 24px; height: 24px; flex-shrink: 0; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; } .ds-record-button { min-height: 52px; padding: .72rem 1.2rem; border: 1px solid transparent; border-radius: 9px; display: inline-flex; justify-content: center; align-items: center; gap: .65rem; font: 600 18px/1.3 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; cursor: pointer; transition: background-color 150ms ease-out, border-color 150ms ease-out; } .ds-record-button:disabled { cursor: wait; opacity: .65; } .ds-record-button:focus-visible { outline: 3px solid var(--focus, #145cbd); outline-offset: 4px; } @media (max-width: 650px) { .ds-record-button { font-size: 17px; } } @media (prefers-reduced-motion: reduce) { .ds-record-button { transition: none !important; } } .ds-record-button { width: 100%; background: var(--accent, #1e6254); color: var(--paper, #ffffff); } .ds-record-button:hover:not(:disabled) { background: var(--accent-hover, #164c41); } .ds-record-button:active:not(:disabled) { background: #103d33; } .ds-record-button.ds-recording { background: #9c3028; } .ds-record-button.ds-recording:hover { background: #7e211c; } @media (max-width: 650px) { .ds-phrase { font-size: 1.5rem; padding: 1.8rem 1.2rem; } .ds-recorder { padding: 1.25rem 1rem 1.4rem; } } .ds-phrase-prompt.ds-has-illustration { display: grid; grid-template-columns: 160px minmax(0, 1fr); align-items: center; gap: 1.5rem; padding: 1.3rem 2rem; } .ds-phrase-image { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; background: var(--canvas, #f4f6f2); border-radius: 12px; } .ds-phrase-image[hidden] { display: none; } .ds-has-illustration .ds-phrase { padding: 0; } @media (max-width: 650px) { .ds-phrase-prompt.ds-has-illustration { grid-template-columns: 100px minmax(0, 1fr); gap: .9rem; padding: 1.1rem 1rem; } .ds-has-illustration .ds-phrase { font-size: 1.25rem; text-align: left; } }"
+    },
+    {
+      "name": "Progresso compacto da missão",
+      "kind": "custom",
+      "refersTo": "mission-panel",
+      "description": "Durante a gravação gamificada, mostra apenas missão atual, contagem confirmada, barra de 16px e mensagem curta. A trilha completa pertence à apresentação.",
+      "html": "<div class=\"ds-mission-panel\"><div class=\"ds-mission-heading\"><svg class=\"ds-mission-star\" aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"m12 3 2.8 5.7 6.3.9-4.6 4.5 1.1 6.3L12 17.4l-5.6 3 1.1-6.3L3 9.6l6.2-.9Z\"/></svg><h2 class=\"ds-mission-title\" id=\"ds-mission-title\">Missão 2</h2><span id=\"ds-goal-count\">0 de 5 gravações</span></div><progress class=\"ds-progress\" value=\"0\" max=\"5\" aria-labelledby=\"ds-mission-title ds-goal-count\" aria-label=\"Progresso da missão 2\"></progress><p class=\"ds-motivation\">Um passo de cada vez, no seu ritmo.</p></div>",
+      "css": ".ds-mission-panel { --accent: #267318; --mission-soft: #edf8df; --mission-edge: #a4ca84; --mission-track: #d9e7cc; background: var(--mission-soft); border: 1px solid var(--mission-edge); border-radius: 14px; padding: .9rem 1.2rem; margin-bottom: 1.25rem; color: var(--ink, #1d302b); font: 400 18px/1.6 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; } .ds-mission-heading { display: flex; align-items: center; gap: .55rem; color: var(--accent); } .ds-mission-title { margin: 0; font-size: 1.3rem; line-height: 1.3; font-weight: 750; } .ds-mission-heading > span { margin-left: auto; color: var(--muted, #50625b); font-size: .8rem; text-align: right; } .ds-mission-star { width: 26px; height: 26px; fill: currentColor; stroke: currentColor; stroke-width: 1.8; flex-shrink: 0; } .ds-progress { display: block; appearance: none; border: 0; border-radius: 10px; overflow: hidden; height: 16px; width: 100%; margin-top: .6rem; background: var(--mission-track); accent-color: var(--accent); } .ds-progress::-webkit-progress-bar { background: var(--mission-track); } .ds-progress::-webkit-progress-value { background: var(--accent); } .ds-progress::-moz-progress-bar { background: var(--accent); } .ds-motivation { font-size: .85rem; color: var(--accent); margin: .6rem 0 0; } @media (max-width: 650px) { .ds-mission-panel { padding: 1rem; margin-bottom: 1.1rem; font-size: 17px; } .ds-mission-heading { flex-wrap: wrap; row-gap: .25rem; } .ds-mission-title { font-size: 1.15rem; } .ds-mission-heading > span { font-size: .72rem; } }"
+    },
+    {
+      "name": "Selo de ambiente de teste",
+      "kind": "chip",
+      "refersTo": "test-label",
+      "description": "Identificação passiva do protótipo; não é ação nem navegação.",
+      "html": "<span class=\"ds-test-label\">Versão de teste</span>",
+      "css": ".ds-test-label { display: inline-block; font: 600 .78rem/1.6 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; padding: .2rem .65rem; border: 1px solid var(--line, #ccd6cf); border-radius: 6px; white-space: nowrap; color: var(--muted, #50625b); } @media (max-width: 650px) { .ds-test-label { font-size: .7rem; padding-inline: .45rem; } }"
+    },
+    {
+      "name": "Botão gamificado",
+      "kind": "button",
+      "refersTo": "button-gamified",
+      "description": "Primário dentro da coleta gamificada, fora do estado de gravação; borda inferior oferece resposta tátil ao pressionar.",
+      "html": "<button class=\"ds-game-button\" type=\"button\">Próxima missão</button>",
+      "css": ".ds-game-button { --accent: #267318; --accent-hover: #1b5811; min-height: 52px; padding: .72rem 1.2rem; border: 1px solid transparent; border-bottom: 4px solid #194e10; border-radius: 12px; display: inline-flex; justify-content: center; align-items: center; gap: .65rem; background: var(--accent); color: var(--paper, #ffffff); font: 600 18px/1.3 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; cursor: pointer; transition: background-color 150ms ease-out, border-color 150ms ease-out; } .ds-game-button:hover:not(:disabled) { background: var(--accent-hover); } .ds-game-button:active:not(:disabled) { background: var(--accent-hover); border-bottom-width: 1px; padding-top: calc(.72rem + 3px); } .ds-game-button:focus-visible { outline: 3px solid var(--focus, #145cbd); outline-offset: 4px; } .ds-game-button:disabled { cursor: wait; opacity: .65; } @media (max-width: 650px) { .ds-game-button { font-size: 17px; } } @media (prefers-reduced-motion: reduce) { .ds-game-button { transition: none !important; } }"
+    },
+    {
+      "name": "Conclusão de missão",
+      "kind": "custom",
+      "refersTo": "mission-celebration",
+      "description": "Conclusão dourada e estática após confirmar todos os envios da missão. Próximo passo e pausa ficam juntos; no fim do material, a ação é Ver resumo e a pausa secundária é ocultada.",
+      "html": "<div class=\"ds-confirmed-stage\"><div class=\"ds-celebration\"><svg class=\"ds-achievement-star\" aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"m12 3 2.8 5.7 6.3.9-4.6 4.5 1.1 6.3L12 17.4l-5.6 3 1.1-6.3L3 9.6l6.2-.9Z\"/></svg><h2 class=\"ds-celebration-title\">Missão 1 concluída!</h2><p class=\"ds-celebration-detail\">5 gravações enviadas e salvas. Uma nova missão está pronta quando você quiser continuar.</p></div><p class=\"ds-confirmed-next-step\">A próxima missão está pronta. Você pode começar quando quiser.</p><div class=\"ds-confirmed-actions\"><button class=\"ds-confirmed-next\" type=\"button\">Próxima missão</button><button class=\"ds-confirmed-pause\" type=\"button\">Pausar por agora</button></div></div>",
+      "css": ".ds-celebration { --reward-bg: #fff4cf; --reward-edge: #e7c45e; --reward-ink: #765014; margin: 0 0 1.25rem; padding: 1.2rem; background: var(--reward-bg); border: 1px solid var(--reward-edge); border-radius: 14px; color: var(--reward-ink); text-align: center; font: 400 18px/1.6 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; } .ds-achievement-star { width: 48px; height: 48px; fill: #f3c545; stroke: var(--reward-ink); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; margin-bottom: .3rem; } .ds-celebration-title { margin: 0; font-size: 1.5rem; line-height: 1.3; font-weight: 750; } .ds-celebration-detail { display: block; margin: .4rem auto 0; max-width: 42ch; color: var(--reward-ink); font-size: .95rem; font-weight: 400; } @media (max-width: 650px) { .ds-celebration { padding: 1rem .8rem; font-size: 17px; } .ds-celebration-title { font-size: 1.3rem; } } .ds-confirmed-stage { text-align: center; color: var(--ink, #1d302b); font: 400 18px/1.6 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; } .ds-confirmed-next-step { display: block; color: var(--muted, #50625b); font-size: .9rem; font-weight: 400; margin: 1rem 0; } .ds-confirmed-actions { display: flex; flex-wrap: wrap; gap: .75rem; } .ds-confirmed-next { --accent: #267318; --accent-hover: #1b5811; min-height: 52px; padding: .72rem 1.2rem; border: 1px solid transparent; border-bottom: 4px solid #194e10; border-radius: 12px; display: inline-flex; justify-content: center; align-items: center; gap: .65rem; background: var(--accent); color: var(--paper, #ffffff); font: 600 18px/1.3 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; cursor: pointer; transition: background-color 150ms ease-out, border-color 150ms ease-out; } .ds-confirmed-next:hover:not(:disabled) { background: var(--accent-hover); } .ds-confirmed-next:active:not(:disabled) { background: var(--accent-hover); border-bottom-width: 1px; padding-top: calc(.72rem + 3px); } .ds-confirmed-next:focus-visible { outline: 3px solid var(--focus, #145cbd); outline-offset: 4px; } .ds-confirmed-next:disabled { cursor: wait; opacity: .65; } @media (max-width: 650px) { .ds-confirmed-next { font-size: 17px; } } @media (prefers-reduced-motion: reduce) { .ds-confirmed-next { transition: none !important; } } .ds-confirmed-pause { min-height: 52px; padding: .72rem 1.2rem; border: 1px solid transparent; border-radius: 9px; display: inline-flex; justify-content: center; align-items: center; gap: .65rem; font: 600 18px/1.3 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; cursor: pointer; transition: background-color 150ms ease-out, border-color 150ms ease-out; } .ds-confirmed-pause:disabled { cursor: wait; opacity: .65; } .ds-confirmed-pause:focus-visible { outline: 3px solid var(--focus, #145cbd); outline-offset: 4px; } @media (max-width: 650px) { .ds-confirmed-pause { font-size: 17px; } } @media (prefers-reduced-motion: reduce) { .ds-confirmed-pause { transition: none !important; } } .ds-confirmed-pause { background: transparent; color: var(--ink, #1d302b); border-color: #93a59a; } .ds-confirmed-pause:hover:not(:disabled) { background: var(--sage, #e7eee5); border-color: var(--muted, #50625b); } .ds-confirmed-actions button { flex: 1; width: auto; } @media (max-width: 650px) { .ds-confirmed-stage { font-size: 17px; } .ds-confirmed-actions { flex-direction: column; } .ds-confirmed-actions button { width: 100%; } }"
+    },
+    {
+      "name": "Apresentação da missão",
+      "kind": "custom",
+      "refersTo": "mission-intro",
+      "description": "Antes de começar ou retomar uma missão sem rascunho, apresenta objetivo, quantidade, trilha completa e propósito da contribuição. A tarefa de gravação começa pela ação explícita.",
+      "html": "<div class=\"ds-mission-intro\"><h2 class=\"ds-intro-title\">Missão 1</h2><p class=\"ds-intro-objective\">Objetivo: gravar e enviar 5 frases.</p><ol class=\"ds-mission-path\" aria-label=\"Seu caminho de missões\"><li class=\"ds-mission-step ds-is-current\" aria-current=\"step\"><span class=\"ds-mission-node\" aria-hidden=\"true\"><svg class=\"ds-path-icon\" aria-hidden=\"true\" viewBox=\"0 0 24 24\"><rect x=\"9\" y=\"2\" width=\"6\" height=\"12\" rx=\"3\"/><path d=\"M5 10v2a7 7 0 0 0 14 0v-2M12 19v3M8 22h8\"/></svg></span><strong>Missão 1</strong><span class=\"ds-mission-status\">Em andamento</span></li><li class=\"ds-mission-step\"><span class=\"ds-mission-node\" aria-hidden=\"true\"><svg class=\"ds-path-icon\" aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M5 22V3m0 1c5-4 9 4 15 0v11c-6 4-10-4-15 0\"/></svg></span><strong>Missão 2</strong><span class=\"ds-mission-status\">A seguir</span></li></ol><p class=\"ds-intro-total\">0 de 2 missões concluídas neste material de teste.</p><p class=\"ds-mission-purpose\">Sua contribuição apoia a pesquisa sobre coleta de voz em interfaces acessíveis.</p><p class=\"ds-mission-rules\">Cada gravação enviada e confirmada conta uma vez. Você pode ouvir, regravar ou pausar quando precisar.</p><button class=\"ds-intro-button\" type=\"button\">Começar missão 1</button></div>",
+      "css": ".ds-mission-intro { --accent: #267318; --mission-soft: #edf8df; --mission-edge: #a4ca84; --mission-track: #d9e7cc; padding: 1.8rem; text-align: center; background: var(--mission-soft); border: 1px solid var(--mission-edge); border-radius: 16px; color: var(--ink, #1d302b); font: 400 18px/1.6 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; } .ds-intro-title { margin: 0; font-size: 1.6rem; line-height: 1.3; font-weight: 650; color: var(--accent); } .ds-intro-objective { margin: .5rem 0 0; font-size: 1.1rem; font-weight: 600; } .ds-mission-intro .ds-mission-path { display: flex; justify-content: center; gap: 0; list-style: none; margin: 1.6rem 0 1rem; padding: 0; } .ds-mission-step { display: flex; align-items: center; flex-direction: column; flex: 1; min-width: 0; position: relative; text-align: center; font-size: .88rem; } .ds-mission-step::before { content: ''; position: absolute; height: 5px; background: var(--mission-track); left: -50%; right: 50%; top: 27px; } .ds-mission-step:first-child::before { display: none; } .ds-mission-step.ds-is-complete::before { background: var(--accent); } .ds-mission-node { display: grid; place-items: center; position: relative; z-index: 1; width: 60px; height: 60px; margin-bottom: .4rem; border-radius: 50%; border: 2px solid #a3b694; background: var(--paper, #ffffff); color: #5d7052; } .ds-path-icon { width: 28px; height: 28px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; } .ds-mission-step.ds-is-current .ds-mission-node { background: var(--accent); color: white; border-color: var(--accent); outline: 4px solid var(--mission-track); outline-offset: 3px; } .ds-mission-step.ds-is-complete .ds-mission-node { background: var(--accent); color: white; border-color: var(--accent); } .ds-mission-step.ds-is-current strong, .ds-mission-step.ds-is-complete strong { color: var(--accent); } .ds-mission-status { font-size: .76rem; color: var(--muted, #50625b); } .ds-intro-total { margin: .35rem 0 .75rem; font-size: .83rem; color: var(--muted, #50625b); } .ds-mission-purpose { max-width: 52ch; margin: 1.3rem auto .7rem; } .ds-mission-rules { max-width: 54ch; margin: 0 auto; color: var(--muted, #50625b); font-size: .9rem; } .ds-intro-button { --accent: #267318; --accent-hover: #1b5811; min-height: 52px; padding: .72rem 1.2rem; border: 1px solid transparent; border-bottom: 4px solid #194e10; border-radius: 12px; display: inline-flex; justify-content: center; align-items: center; gap: .65rem; background: var(--accent); color: var(--paper, #ffffff); font: 600 18px/1.3 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; cursor: pointer; transition: background-color 150ms ease-out, border-color 150ms ease-out; } .ds-intro-button:hover:not(:disabled) { background: var(--accent-hover); } .ds-intro-button:active:not(:disabled) { background: var(--accent-hover); border-bottom-width: 1px; padding-top: calc(.72rem + 3px); } .ds-intro-button:focus-visible { outline: 3px solid var(--focus, #145cbd); outline-offset: 4px; } .ds-intro-button:disabled { cursor: wait; opacity: .65; } @media (max-width: 650px) { .ds-intro-button { font-size: 17px; } } @media (prefers-reduced-motion: reduce) { .ds-intro-button { transition: none !important; } } .ds-mission-intro .ds-intro-button { margin-top: 1.5rem; min-width: 260px; } @media (max-width: 650px) { .ds-mission-intro { padding: 1.3rem 1rem; font-size: 17px; } .ds-intro-title { font-size: 1.4rem; } .ds-mission-intro .ds-intro-button { width: 100%; min-width: 0; } .ds-mission-node { width: 50px; height: 50px; } .ds-mission-step::before { top: 22px; } .ds-mission-path { margin-block: .9rem; } }"
+    },
+    {
+      "name": "Avaliação opcional",
+      "kind": "custom",
+      "refersTo": "evaluation-panel",
+      "description": "Details nativo, fechado ao abrir o resumo. Campos independentes e opcionais nas duas condições; escalas autorais exploratórias sem escore conjunto. A persistência e os anúncios de envio pertencem ao aplicativo.",
+      "html": "<details class=\"ds-evaluation-panel\"><summary>Como foi usar a plataforma?</summary><p class=\"ds-evaluation-hint\">Responder é opcional. Suas respostas ajudam a melhorar a interface.</p><form class=\"ds-evaluation-form\" novalidate><div class=\"ds-evaluation-field\"><label for=\"ds-evaluation-ease\">Foi fácil usar os controles para gravar e enviar?</label><select id=\"ds-evaluation-ease\" name=\"ease\"><option value=\"\">Prefiro não responder</option><option value=\"1\">1 — Muito difícil</option><option value=\"2\">2 — Difícil</option><option value=\"3\">3 — Nem fácil, nem difícil</option><option value=\"4\">4 — Fácil</option><option value=\"5\">5 — Muito fácil</option></select></div><div class=\"ds-evaluation-field\"><label for=\"ds-evaluation-gamefulness\">Quanto a atividade pareceu um jogo?</label><select id=\"ds-evaluation-gamefulness\" name=\"gamefulness\"><option value=\"\">Prefiro não responder</option><option value=\"1\">1 — Nada</option><option value=\"2\">2 — Pouco</option><option value=\"3\">3 — Mais ou menos</option><option value=\"4\">4 — Bastante</option><option value=\"5\">5 — Muito</option></select></div><div class=\"ds-evaluation-field\"><label for=\"ds-evaluation-fatigue\">Quanto cansaço você sentiu nesta sessão?</label><select id=\"ds-evaluation-fatigue\" name=\"fatigue\"><option value=\"\">Prefiro não responder</option><option value=\"1\">1 — Nenhum</option><option value=\"2\">2 — Pouco</option><option value=\"3\">3 — Moderado</option><option value=\"4\">4 — Bastante</option><option value=\"5\">5 — Muito</option></select></div><div class=\"ds-evaluation-field\"><label for=\"ds-evaluation-images\">Como foi usar as imagens junto às frases?</label><select id=\"ds-evaluation-images\" name=\"images\"><option value=\"\">Prefiro não responder</option><option value=\"helped\">Ajudaram a entender</option><option value=\"neutral\">Não fizeram diferença</option><option value=\"distracting\">Distraíram</option><option value=\"unclear\">Foram difíceis de entender</option><option value=\"not_seen\">Não usei ou não vi as imagens</option></select></div><div class=\"ds-evaluation-field\"><label for=\"ds-evaluation-comment\">O que facilitou ou dificultou continuar? <span class=\"ds-optional-label\">(opcional)</span></label><textarea id=\"ds-evaluation-comment\" name=\"comment\" rows=\"3\" maxlength=\"1000\"></textarea></div><button class=\"ds-evaluation-submit\" type=\"button\">Enviar respostas</button></form></details>",
+      "css": ".ds-evaluation-panel { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--line, #ccd6cf); text-align: left; color: var(--ink, #1d302b); font: 400 18px/1.6 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; } .ds-evaluation-panel > summary { min-height: 52px; padding-block: .6rem; color: var(--accent, #1e6254); font-weight: 650; cursor: pointer; } .ds-evaluation-hint { margin: .4rem 0 1.4rem; font-size: .83rem; color: var(--muted, #50625b); } .ds-evaluation-field { margin-bottom: 1.25rem; } .ds-evaluation-field label { display: block; font-size: .95rem; font-weight: 600; margin-bottom: .5rem; } .ds-evaluation-field select, .ds-evaluation-field textarea { width: 100%; min-height: 52px; max-width: 100%; background: var(--paper, #ffffff); color: var(--ink, #1d302b); border: 1px solid #84988c; border-radius: 8px; padding: .6rem .7rem; font: inherit; line-height: 1.5; } .ds-evaluation-field select { text-overflow: ellipsis; } .ds-evaluation-field textarea { display: block; resize: vertical; } .ds-optional-label { color: var(--muted, #50625b); font-weight: 400; } .ds-evaluation-submit { min-height: 52px; padding: .72rem 1.2rem; border: 1px solid #93a59a; border-radius: 9px; display: inline-flex; justify-content: center; align-items: center; gap: .65rem; background: transparent; color: var(--ink, #1d302b); font: 600 18px/1.3 \"Segoe UI\", system-ui, -apple-system, BlinkMacSystemFont, sans-serif; cursor: pointer; transition: background-color 150ms ease-out, border-color 150ms ease-out; } .ds-evaluation-submit:hover:not(:disabled) { background: var(--sage, #e7eee5); border-color: var(--muted, #50625b); } .ds-evaluation-submit:disabled { cursor: wait; opacity: .65; } .ds-evaluation-panel > summary:focus-visible { outline: 3px solid var(--focus, #145cbd); outline-offset: 4px; } .ds-evaluation-field select:focus-visible { outline: 3px solid var(--focus, #145cbd); outline-offset: 4px; } .ds-evaluation-field textarea:focus-visible { outline: 3px solid var(--focus, #145cbd); outline-offset: 4px; } .ds-evaluation-submit:focus-visible { outline: 3px solid var(--focus, #145cbd); outline-offset: 4px; } @media (max-width: 650px) { .ds-evaluation-panel, .ds-evaluation-submit { font-size: 17px; } } @media (prefers-reduced-motion: reduce) { .ds-evaluation-submit { transition: none !important; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Uma tarefa por vez",
+    "overview": "Uma tarefa por vez organiza uma interface clara e contida: fundo claro, texto escuro, instruções diretas e ações amplas. A tipografia de sistema foi autorizada para esta UI funcional.\n\nSuperfícies planas mantêm a frase e o estado do gravador como prioridades. A condição gamificada apresenta a trilha antes da missão, mantém progresso compacto durante a gravação e celebra a conclusão de forma estática; a referência Duolingo solicitada orienta a interação, sem constituir evidência de eficácia. Ilustrações figurativas acompanham as frases nas duas condições e na familiarização, mantendo o texto separado. Não há animação decorativa.",
+    "keyCharacteristics": [
+      "Frase legível e ação explícita.",
+      "Estado comunicado por texto, ícone e cor.",
+      "Ritmo controlado pela pessoa, com próximo passo e pausa juntos.",
+      "Missões e conquista visual somente na condição gamificada.",
+      "Apoio visual equivalente nas duas condições."
+    ],
+    "rules": [
+      {
+        "name": "The Estado Explícito Rule",
+        "body": "A cor acompanha texto de estado; confirmação aparece somente após o servidor confirmar o recebimento.",
+        "section": "colors"
+      },
+      {
+        "name": "The Superfície Plana Rule",
+        "body": "Separar áreas por fundo, borda e espaço, sem sombras.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preservar rótulos em português, foco visível e mensagens de erro acionáveis.",
+      "Do manter a mesma frase, ilustração e controles nas condições neutra e gamificada.",
+      "Do manter a frase em texto, `alt=\"\"` nas cenas redundantes e retorno ao texto quando a imagem não carregar.",
+      "Do manter avaliação opcional e respostas independentes, com alternativa de não responder."
+    ],
+    "donts": [
+      "Don't acrescentar pressão de tempo ou animação decorativa.",
+      "Don't substituir o texto pela ilustração nem condicionar a gravação ao carregamento da imagem.",
+      "Don't mostrar missões, trilha ou celebração na condição neutra nem na familiarização.",
+      "Don't acrescentar XP, ranking, streak, som ou avaliação de pronúncia.",
+      "Don't somar facilidade, percepção de jogo e cansaço em um escore conjunto."
+    ]
+  }
+}
+

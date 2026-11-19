@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Coleta de voz</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+  <svg class="svg-defs" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <symbol id="mic" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3M8 22h8"/></symbol>
+      <symbol id="stop" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="2"/></symbol>
+      <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+      <symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+      <symbol id="again" viewBox="0 0 24 24"><path d="M4 10a8 8 0 1 1 1 8M4 4v6h6"/></symbol>
+      <symbol id="pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></symbol>
+      <symbol id="star" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.3.9-4.6 4.5 1.1 6.3L12 17.4l-5.6 3 1.1-6.3L3 9.6l6.2-.9Z"/></symbol>
+      <symbol id="flag" viewBox="0 0 24 24"><path d="M5 22V3m0 1c5-4 9 4 15 0v11c-6 4-10-4-15 0"/></symbol>
+    </defs>
+  </svg>
+  <header class="site-header">
+    <div class="brand"><svg class="icon" aria-hidden="true"><use href="#mic"/></svg><span>Coleta de voz</span></div>
+    <span class="test-label">Versão de teste</span>
+  </header>
+  <main id="main" tabindex="-1">
+    <div id="global-error" class="notice error" role="alert" hidden></div>
+    <div id="sync-warning" class="notice warning" hidden>
+      <span>Algumas ações ainda não foram sincronizadas.</span>
+      <button id="sync-button" class="text-button" type="button">Tentar sincronizar</button>
+    </div>
+
+    <section id="welcome-screen" class="welcome-layout" aria-labelledby="welcome-title">
+      <div class="welcome-main">
+        <h1 id="welcome-title" tabindex="-1">Grave frases<br>no seu ritmo.</h1>
+        <p class="lead">Você pode ouvir, gravar de novo ou fazer uma pausa quando precisar.</p>
+        <form id="login-form" novalidate>
+          <label for="access-code">Código de acesso</label>
+          <p id="code-hint" class="field-hint">Use o código fornecido para o teste.</p>
+          <input id="access-code" name="code" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="64" required aria-describedby="code-hint login-error">
+          <p id="login-error" class="field-error" role="alert" hidden></p>
+          <button id="login-button" class="button primary" type="submit">Entrar <svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></button>
+        </form>
+        <div id="resume-panel" hidden>
+          <div id="welcome-mission" class="welcome-mission" hidden>
+            <svg class="icon" aria-hidden="true"><use href="#star"/></svg>
+            <div><h2 id="welcome-mission-title">Sua próxima missão</h2><p id="welcome-mission-detail"></p></div>
+          </div>
+          <p id="resume-message" class="resume-message"></p>
+          <button id="begin-button" class="button primary" type="button">Começar <svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></button>
+          <button id="switch-button" class="text-button switch-button" type="button">Usar outro código</button>
+        </div>
+      </div>
+      <aside class="instructions" aria-labelledby="instructions-title">
+        <h2 id="instructions-title">Como funciona</h2>
+        <ol class="instruction-list">
+          <li><span class="step-number" aria-hidden="true">1</span><div><h3>Leia a frase</h3><p>Uma frase aparece de cada vez.</p></div></li>
+          <li><span class="step-number" aria-hidden="true">2</span><div><h3>Grave sua voz</h3><p>Use o botão para começar e parar.</p></div></li>
+          <li><span class="step-number" aria-hidden="true">3</span><div><h3>Ouça e envie</h3><p>Se quiser, grave novamente antes de enviar.</p></div></li>
+        </ol>
+        <p class="test-note">Este ambiente é destinado a testes técnicos. Use apenas gravações para testar a plataforma.</p>
+      </aside>
+    </section>
+
+    <section id="collect-screen" class="collection" aria-labelledby="collect-title" hidden>
+      <div class="collection-heading">
+        <div><h1 id="collect-title" tabindex="-1">Grave a frase abaixo</h1><p id="phase-description">Fale no seu ritmo. Você pode gravar novamente.</p></div>
+        <button id="pause-button" class="button secondary compact" type="button"><svg class="icon" aria-hidden="true"><use href="#pause"/></svg>Pausar</button>
+      </div>
+      <div id="goal-panel" class="goal-panel" hidden>
+        <div class="mission-heading"><svg class="icon mission-star" aria-hidden="true"><use href="#star"/></svg><h2 id="goal-title">Sua missão</h2><span id="goal-count"></span></div>
+        <progress id="goal-progress" value="0" max="5" aria-labelledby="goal-title goal-count"></progress>
+        <p id="motivation-message">Uma contribuição de cada vez, no seu ritmo.</p>
+      </div>
+      <div id="mission-intro" class="mission-intro" hidden>
+        <h2 id="intro-title">Sua próxima missão</h2>
+        <p id="intro-objective" class="intro-objective"></p>
+        <ol id="mission-path" class="mission-path" aria-label="Seu caminho de missões"></ol>
+        <p id="intro-mission-total" class="field-hint"></p>
+        <p class="mission-purpose">Sua contribuição apoia a pesquisa sobre coleta de voz em interfaces acessíveis.</p>
+        <p class="mission-rules">Cada gravação enviada e confirmada conta uma vez. Você pode ouvir, regravar ou pausar quando precisar.</p>
+        <button id="mission-start-button" class="button primary" type="button">Começar missão <svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></button>
+      </div>
+      <div id="recording-surface" class="recording-surface">
+        <div id="phrase-prompt" class="phrase-prompt">
+          <img id="phrase-image" class="phrase-image" alt="" width="640" height="640" decoding="async" hidden>
+          <p id="phrase-text" class="phrase"></p>
+        </div>
+        <div class="recorder">
+          <div class="recorder-status"><span id="state-dot" class="state-dot" aria-hidden="true"></span><span id="recorder-status">Pronto para gravar</span><span id="timer" class="timer" aria-hidden="true">00:00</span></div>
+          <button id="record-button" class="button record-button primary" type="button"><svg class="icon" aria-hidden="true"><use id="record-icon" href="#mic"/></svg><span id="record-label">Começar gravação</span></button>
+          <div id="review-controls" class="review-controls" hidden>
+            <label for="audio-preview">Ouvir sua gravação</label>
+            <audio id="audio-preview" controls preload="metadata"></audio>
+            <p id="recording-length" class="field-hint"></p>
+            <div class="review-actions">
+              <button id="rerecord-button" class="button secondary" type="button"><svg class="icon" aria-hidden="true"><use href="#again"/></svg>Gravar novamente</button>
+              <button id="send-button" class="button primary" type="button">Enviar gravação<svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></button>
+            </div>
+          </div>
+          <div id="confirmed-panel" class="confirmed-panel" hidden>
+            <p><svg class="icon" aria-hidden="true"><use href="#check"/></svg>Áudio recebido e salvo.</p>
+            <div id="mission-celebration" class="mission-celebration" hidden>
+              <svg class="icon achievement-star" aria-hidden="true"><use href="#star"/></svg>
+              <h2 id="celebration-title">Missão concluída!</h2>
+              <p id="celebration-detail"></p>
+            </div>
+            <p id="confirmed-next-step" class="confirmed-next-step"></p>
+            <div class="confirmed-actions">
+              <button id="next-button" class="button primary" type="button">Próxima frase <svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></button>
+              <button id="confirmed-pause-button" class="button secondary" type="button"><svg class="icon" aria-hidden="true"><use href="#pause"/></svg>Pausar por agora</button>
+            </div>
+          </div>
+          <p id="recording-error" class="notice error" role="alert" hidden></p>
+          <p id="draft-notice" class="draft-notice" hidden>Há uma gravação ainda não enviada. Ela fica guardada neste navegador para você retomar com o mesmo código.</p>
+        </div>
+      </div>
+      <p id="collection-help" class="collection-help">O microfone só é usado durante a gravação. Você pode encerrar quando quiser.</p>
+    </section>
+
+    <section id="summary-screen" class="summary" aria-labelledby="summary-title" hidden>
+      <div class="summary-symbol" aria-hidden="true"><svg class="icon"><use href="#check"/></svg></div>
+      <h1 id="summary-title" tabindex="-1">Tudo salvo por aqui.</h1>
+      <p id="summary-description" class="lead"></p>
+      <div id="summary-missions" class="summary-missions" hidden><svg class="icon" aria-hidden="true"><use href="#star"/></svg><p id="summary-missions-text"></p></div>
+      <dl class="summary-values"><div><dt>Gravações enviadas</dt><dd id="summary-count">0</dd></div><div><dt>Tempo de áudio enviado</dt><dd id="summary-duration">00:00</dd></div></dl>
+      <p id="summary-draft" class="notice warning" hidden>Você também tem uma gravação ainda não enviada, guardada neste navegador.</p>
+      <p class="field-hint">O treino de familiarização é registrado separadamente.</p>
+      <div class="summary-actions"><button id="continue-button" class="button primary" type="button">Retomar <svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></button><button id="exit-button" class="button secondary" type="button">Voltar ao início</button></div>
+      <details id="evaluation-panel" class="evaluation-panel">
+        <summary>Como foi usar a plataforma?</summary>
+        <p class="field-hint">Responder é opcional. Suas respostas ajudam a melhorar a interface.</p>
+        <form id="evaluation-form" novalidate>
+          <div class="evaluation-field"><label for="evaluation-ease">Foi fácil usar os controles para gravar e enviar?</label>
+            <select id="evaluation-ease" name="ease"><option value="">Prefiro não responder</option><option value="1">1 — Muito difícil</option><option value="2">2 — Difícil</option><option value="3">3 — Nem fácil, nem difícil</option><option value="4">4 — Fácil</option><option value="5">5 — Muito fácil</option></select>
+          </div>
+          <div class="evaluation-field"><label for="evaluation-gamefulness">Quanto a atividade pareceu um jogo?</label>
+            <select id="evaluation-gamefulness" name="gamefulness"><option value="">Prefiro não responder</option><option value="1">1 — Nada</option><option value="2">2 — Pouco</option><option value="3">3 — Mais ou menos</option><option value="4">4 — Bastante</option><option value="5">5 — Muito</option></select>
+          </div>
+          <div class="evaluation-field"><label for="evaluation-fatigue">Quanto cansaço você sentiu nesta sessão?</label>
+            <select id="evaluation-fatigue" name="fatigue"><option value="">Prefiro não responder</option><option value="1">1 — Nenhum</option><option value="2">2 — Pouco</option><option value="3">3 — Moderado</option><option value="4">4 — Bastante</option><option value="5">5 — Muito</option></select>
+          </div>
+          <div class="evaluation-field"><label for="evaluation-images">Como foi usar as imagens junto às frases?</label>
+            <select id="evaluation-images" name="images"><option value="">Prefiro não responder</option><option value="helped">Ajudaram a entender</option><option value="neutral">Não fizeram diferença</option><option value="distracting">Distraíram</option><option value="unclear">Foram difíceis de entender</option><option value="not_seen">Não usei ou não vi as imagens</option></select>
+          </div>
+          <div class="evaluation-field"><label for="evaluation-comment">O que facilitou ou dificultou continuar? <span class="optional-label">(opcional)</span></label><textarea id="evaluation-comment" name="comment" rows="3" maxlength="1000"></textarea></div>
+          <p id="evaluation-error" class="notice error" role="alert" hidden></p>
+          <button id="evaluation-submit" class="button secondary" type="submit">Enviar respostas</button>
+          <p id="evaluation-status" class="evaluation-status" role="status" tabindex="-1" hidden></p>
+        </form>
+      </details>
+    </section>
+    <p id="live-message" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+    <noscript><p class="notice error">Ative o JavaScript do navegador para usar a gravação de voz.</p></noscript>
+  </main>
+  <footer class="site-footer"><span>Projeto de iniciação científica</span><span>Seu ritmo importa.</span></footer>
+</body>
+</html>

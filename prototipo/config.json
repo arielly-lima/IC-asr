@@ -1,0 +1,25 @@
+{
+  "bankVersion": "teste-tecnico-v1",
+  "goalSize": 5,
+  "practicePhrase": { "id": "treino-01", "text": "Hoje estou testando o gravador." },
+  "participants": [
+    { "code": "TESTE-G01", "id": "teste-g01", "condition": "gamified" },
+    { "code": "TESTE-G02", "id": "teste-g02", "condition": "gamified" },
+    { "code": "TESTE-G03", "id": "teste-g03", "condition": "gamified" },
+    { "code": "TESTE-G04", "id": "teste-g04", "condition": "gamified" },
+    { "code": "TESTE-N02", "id": "teste-n02", "condition": "neutral" },
+    { "code": "TESTE-N01", "id": "teste-n01", "condition": "neutral" }
+  ],
+  "phrases": [
+    { "id": "teste-01", "text": "A janela está aberta.", "domain": null },
+    { "id": "teste-02", "text": "Hoje o céu está azul.", "domain": null },
+    { "id": "teste-03", "text": "O livro está sobre a mesa.", "domain": null },
+    { "id": "teste-04", "text": "A água está no copo.", "domain": null },
+    { "id": "teste-05", "text": "A porta da sala está fechada.", "domain": null },
+    { "id": "teste-06", "text": "O caderno está na mochila.", "domain": null },
+    { "id": "teste-07", "text": "O jardim tem muitas flores.", "domain": null },
+    { "id": "teste-08", "text": "A cadeira está perto da mesa.", "domain": null },
+    { "id": "teste-09", "text": "A luz da cozinha está acesa.", "domain": null },
+    { "id": "teste-10", "text": "Amanhã será um novo dia.", "domain": null }
+  ]
+}
