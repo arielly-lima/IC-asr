@@ -39,7 +39,7 @@ A definição do escopo dos testes ainda está em fase de decisão. Nesse sentid
 **Tempo e quantidade de pessoas**
 
 - **Previsão:** 30–40 minutos por pessoa, incluindo cerca de 5–8 minutos de uso por versão. Fixar a janela após o piloto; permitir pausas e encerramento antecipado.
-- **Meta inicial:** 6–10 participantes na comparação, além de 2 pessoas para um piloto prévio, analisado separadamente. É uma proposta por viabilidade de recrutamento e tempo, não uma média universal nem um mínimo estatístico. O tamanho final precisa de justificativa compatível com conclusões exploratórias. [Referência sobre justificativa da amostra: Lakens, 2022](https://doi.org/10.1525/collabra.33267).
+- **Meta inicial:** 8–10 participantes na comparação. O tamanho final precisa de justificativa compatível com conclusões exploratórias. [Referência sobre justificativa da amostra: Lakens, 2022](https://doi.org/10.1525/collabra.33267).
 
 **O que permite avaliar da hipótese e dos objetivos**
 
@@ -56,20 +56,19 @@ A definição do escopo dos testes ainda está em fase de decisão. Nesse sentid
 - Se o recrutamento permitir comparação, sortear participantes entre dois grupos de tamanhos próximos: neutro e gamificado. Cada pessoa permanece na mesma versão durante toda a semana.
 - Manter banco e ordem das frases, imagens, instruções e oportunidades de acesso equivalentes. A participação é voluntária, sem obrigação de gravar diariamente ou cumprir uma quantidade.
 - Disponibilizar acesso pelo celular ou computador, com hospedagem HTTPS e frases suficientes para a semana. Padronizar o suporte e, se houver lembretes, sua frequência e conteúdo; registrar esses contatos e a ajuda recebida.
-- Registrar o uso automaticamente e realizar uma conversa breve ao final, inclusive com quem parou de usar, se aceitar. Separar familiarização dos dados analisados.
+- Registrar o uso automaticamente e realizar uma conversa breve ao final (apenas para entender se o teste correu bem), inclusive com quem parou de usar, se aceitar. Separar familiarização dos dados analisados.
 
 **O que poderia ser avaliado**
 
 - **Principal:** gravações voluntárias enviadas e confirmadas por participante durante os sete dias, comparando as condições.
 - **Continuidade:** dias com pelo menos um envio, retorno com nova contribuição em dia posterior ao primeiro uso e atividade no último dia. Identificar participação acompanhada ou após lembretes.
-- **Complementar:** duração do áudio coletado, conclusão de tarefas, compreensão das mecânicas, interesse, cansaço, pressão e motivos para continuar ou parar.
+- **Complementar:** conclusão de tarefas, compreensão das mecânicas, interesse, cansaço, pressão e motivos para continuar ou parar.
 - **Análise:** comparar resultados por pessoa, sem tratar dias ou gravações como participantes independentes. Relatar perdas, falhas e dados incompletos; não analisar apenas quem chegou ao final nem confundir falta de registro técnico com ausência de participação.
 
 **Tempo e quantidade de pessoas**
 
-- **Previsão:** 15–20 minutos de apresentação, sete dias de acesso livre e 10–15 minutos de conversa final. Planejar usos curtos, de cerca de 5–10 minutos, ajustáveis no piloto e ao conforto da pessoa; não é uma duração obrigatória.
-- **Meta provisória:** 12–20 participantes no total, aproximadamente 6–10 por condição, além de 2 para piloto prévio, analisado separadamente. É uma estimativa de planejamento, sujeita à viabilidade; não garante poder estatístico. Justificar o tamanho final conforme o objetivo exploratório. [Referência: Lakens, 2022](https://doi.org/10.1525/collabra.33267).
-- **Se houver poucas pessoas:** reavaliar o desenho antes da coleta, sem dividir automaticamente em grupos muito pequenos. Acompanhar somente uma versão permite descrever uso e viabilidade, mas não atribuir diferenças à gamificação.
+- **Previsão:** 15–20 minutos de apresentação, sete dias de acesso livre e 10–15 minutos de conversa final. Planejar usos curtos, diários, de cerca de 5–10 minutos, ajustáveis no piloto e ao conforto da pessoa; não é uma duração obrigatória.
+- **Meta provisória:** 12–20 participantes no total, aproximadamente 6–10 por condição. É uma estimativa de planejamento, sujeita à viabilidade; não garante poder estatístico. Justificar o tamanho final conforme o objetivo exploratório. [Referência: Lakens, 2022](https://doi.org/10.1525/collabra.33267).
 
 **O que permite avaliar da hipótese e dos objetivos**
 
