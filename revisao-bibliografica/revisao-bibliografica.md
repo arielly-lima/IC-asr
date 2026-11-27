@@ -4,6 +4,8 @@
 
 Objetivo: fundamentar metas, progresso e feedback, justificar métricas de engajamento, orientar a interface acessível e estabelecer critérios para escolher domínios e frases. Esta é uma revisão exploratória orientada ao projeto, sem pretensão de cobertura sistemática da literatura.
 
+**Referência metodológica incorporada em 26/11/2026:** lidas as nove páginas do *Guia Prático de Pesquisa Acadêmica — Prof. Mariana Vicente*, fornecido pela estudante. A [síntese com páginas e aplicações](../escopo/escopo-estudo.md#referência-metodológica-guia-de-mariana-vicente) está no escopo. Para esta revisão, aplicar o vínculo entre conceitos, autores e experimentos (p. 2), a delimitação de conceitos, categorias e variáveis (pp. 3–5), a conferência das fontes e a revisão crítica da estudante (pp. 5–6) e a escrita baseada em evidências (pp. 6–7). O guia é apoio metodológico; não constitui evidência empírica de efeito da gamificação nem torna esta revisão exploratória uma revisão sistemática.
+
 ## Tasks
 
 - [x] Selecionar referências iniciais de motivação, gamificação, coleta de voz e acessibilidade.
